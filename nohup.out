@@ -1,0 +1,170 @@
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.6/bin/wpull", line 11, in <module>
+    load_entry_point('wpull==2.0.1', 'console_scripts', 'wpull')()
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/pkg_resources/__init__.py", line 565, in load_entry_point
+    return get_distribution(dist).load_entry_point(group, name)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/pkg_resources/__init__.py", line 2631, in load_entry_point
+    return ep.load()
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/pkg_resources/__init__.py", line 2291, in load
+    return self.resolve()
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/pkg_resources/__init__.py", line 2297, in resolve
+    module = __import__(self.module_name, fromlist=['__name__'], level=0)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/wpull/application/main.py", line 4, in <module>
+    from wpull.application.builder import Builder
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/wpull/application/builder.py", line 12, in <module>
+    from wpull.application.tasks.download import ProcessTask, ParserSetupTask, ClientSetupTask, ProcessorSetupTask, \
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/wpull/application/tasks/download.py", line 10, in <module>
+    from wpull.processor.coprocessor.phantomjs import PhantomJSParams
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/wpull/processor/coprocessor/phantomjs.py", line 22, in <module>
+    from wpull.processor.rule import ProcessingRule
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/wpull/processor/rule.py", line 21, in <module>
+    from wpull.protocol.http.robots import RobotsTxtChecker
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/wpull/protocol/http/robots.py", line 14, in <module>
+    from wpull.protocol.http.web import WebClient
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/wpull/protocol/http/web.py", line 13, in <module>
+    from wpull.protocol.http.client import Client
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/wpull/protocol/http/client.py", line 14, in <module>
+    from wpull.protocol.abstract.client import BaseClient, BaseSession, DurationTimeout
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/wpull/protocol/abstract/client.py", line 12, in <module>
+    from wpull.network.pool import ConnectionPool
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/wpull/network/pool.py", line 10, in <module>
+    from wpull.network.connection import Connection, SSLConnection
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/wpull/network/connection.py", line 13, in <module>
+    from tornado.netutil import SSLCertificateError
+ImportError: cannot import name 'SSLCertificateError'
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.6/bin/wpull", line 11, in <module>
+    load_entry_point('wpull==2.0.1', 'console_scripts', 'wpull')()
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/pkg_resources/__init__.py", line 565, in load_entry_point
+    return get_distribution(dist).load_entry_point(group, name)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/pkg_resources/__init__.py", line 2631, in load_entry_point
+    return ep.load()
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/pkg_resources/__init__.py", line 2291, in load
+    return self.resolve()
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/pkg_resources/__init__.py", line 2297, in resolve
+    module = __import__(self.module_name, fromlist=['__name__'], level=0)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/wpull/application/main.py", line 4, in <module>
+    from wpull.application.builder import Builder
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/wpull/application/builder.py", line 12, in <module>
+    from wpull.application.tasks.download import ProcessTask, ParserSetupTask, ClientSetupTask, ProcessorSetupTask, \
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/wpull/application/tasks/download.py", line 10, in <module>
+    from wpull.processor.coprocessor.phantomjs import PhantomJSParams
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/wpull/processor/coprocessor/phantomjs.py", line 22, in <module>
+    from wpull.processor.rule import ProcessingRule
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/wpull/processor/rule.py", line 21, in <module>
+    from wpull.protocol.http.robots import RobotsTxtChecker
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/wpull/protocol/http/robots.py", line 14, in <module>
+    from wpull.protocol.http.web import WebClient
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/wpull/protocol/http/web.py", line 13, in <module>
+    from wpull.protocol.http.client import Client
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/wpull/protocol/http/client.py", line 14, in <module>
+    from wpull.protocol.abstract.client import BaseClient, BaseSession, DurationTimeout
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/wpull/protocol/abstract/client.py", line 12, in <module>
+    from wpull.network.pool import ConnectionPool
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/wpull/network/pool.py", line 10, in <module>
+    from wpull.network.connection import Connection, SSLConnection
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/wpull/network/connection.py", line 13, in <module>
+    from tornado.netutil import SSLCertificateError
+ImportError: cannot import name 'SSLCertificateError'
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.6/bin/wpull", line 11, in <module>
+    load_entry_point('wpull==2.0.1', 'console_scripts', 'wpull')()
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/pkg_resources/__init__.py", line 565, in load_entry_point
+    return get_distribution(dist).load_entry_point(group, name)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/pkg_resources/__init__.py", line 2631, in load_entry_point
+    return ep.load()
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/pkg_resources/__init__.py", line 2291, in load
+    return self.resolve()
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/pkg_resources/__init__.py", line 2297, in resolve
+    module = __import__(self.module_name, fromlist=['__name__'], level=0)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/wpull/application/main.py", line 4, in <module>
+    from wpull.application.builder import Builder
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/wpull/application/builder.py", line 12, in <module>
+    from wpull.application.tasks.download import ProcessTask, ParserSetupTask, ClientSetupTask, ProcessorSetupTask, \
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/wpull/application/tasks/download.py", line 10, in <module>
+    from wpull.processor.coprocessor.phantomjs import PhantomJSParams
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/wpull/processor/coprocessor/phantomjs.py", line 22, in <module>
+    from wpull.processor.rule import ProcessingRule
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/wpull/processor/rule.py", line 21, in <module>
+    from wpull.protocol.http.robots import RobotsTxtChecker
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/wpull/protocol/http/robots.py", line 14, in <module>
+    from wpull.protocol.http.web import WebClient
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/wpull/protocol/http/web.py", line 13, in <module>
+    from wpull.protocol.http.client import Client
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/wpull/protocol/http/client.py", line 14, in <module>
+    from wpull.protocol.abstract.client import BaseClient, BaseSession, DurationTimeout
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/wpull/protocol/abstract/client.py", line 12, in <module>
+    from wpull.network.pool import ConnectionPool
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/wpull/network/pool.py", line 10, in <module>
+    from wpull.network.connection import Connection, SSLConnection
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/wpull/network/connection.py", line 13, in <module>
+    from tornado.netutil import SSLCertificateError
+ImportError: cannot import name 'SSLCertificateError'
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.6/bin/wpull", line 11, in <module>
+    load_entry_point('wpull==2.0.1', 'console_scripts', 'wpull')()
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/pkg_resources/__init__.py", line 565, in load_entry_point
+    return get_distribution(dist).load_entry_point(group, name)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/pkg_resources/__init__.py", line 2631, in load_entry_point
+    return ep.load()
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/pkg_resources/__init__.py", line 2291, in load
+    return self.resolve()
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/pkg_resources/__init__.py", line 2297, in resolve
+    module = __import__(self.module_name, fromlist=['__name__'], level=0)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/wpull/application/main.py", line 4, in <module>
+    from wpull.application.builder import Builder
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/wpull/application/builder.py", line 12, in <module>
+    from wpull.application.tasks.download import ProcessTask, ParserSetupTask, ClientSetupTask, ProcessorSetupTask, \
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/wpull/application/tasks/download.py", line 10, in <module>
+    from wpull.processor.coprocessor.phantomjs import PhantomJSParams
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/wpull/processor/coprocessor/phantomjs.py", line 22, in <module>
+    from wpull.processor.rule import ProcessingRule
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/wpull/processor/rule.py", line 21, in <module>
+    from wpull.protocol.http.robots import RobotsTxtChecker
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/wpull/protocol/http/robots.py", line 14, in <module>
+    from wpull.protocol.http.web import WebClient
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/wpull/protocol/http/web.py", line 13, in <module>
+    from wpull.protocol.http.client import Client
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/wpull/protocol/http/client.py", line 14, in <module>
+    from wpull.protocol.abstract.client import BaseClient, BaseSession, DurationTimeout
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/wpull/protocol/abstract/client.py", line 12, in <module>
+    from wpull.network.pool import ConnectionPool
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/wpull/network/pool.py", line 10, in <module>
+    from wpull.network.connection import Connection, SSLConnection
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/wpull/network/connection.py", line 13, in <module>
+    from tornado.netutil import SSLCertificateError
+ImportError: cannot import name 'SSLCertificateError'
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.6/bin/wpull", line 11, in <module>
+    load_entry_point('wpull==2.0.1', 'console_scripts', 'wpull')()
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/pkg_resources/__init__.py", line 565, in load_entry_point
+    return get_distribution(dist).load_entry_point(group, name)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/pkg_resources/__init__.py", line 2631, in load_entry_point
+    return ep.load()
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/pkg_resources/__init__.py", line 2291, in load
+    return self.resolve()
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/pkg_resources/__init__.py", line 2297, in resolve
+    module = __import__(self.module_name, fromlist=['__name__'], level=0)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/wpull/application/main.py", line 4, in <module>
+    from wpull.application.builder import Builder
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/wpull/application/builder.py", line 12, in <module>
+    from wpull.application.tasks.download import ProcessTask, ParserSetupTask, ClientSetupTask, ProcessorSetupTask, \
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/wpull/application/tasks/download.py", line 10, in <module>
+    from wpull.processor.coprocessor.phantomjs import PhantomJSParams
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/wpull/processor/coprocessor/phantomjs.py", line 22, in <module>
+    from wpull.processor.rule import ProcessingRule
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/wpull/processor/rule.py", line 21, in <module>
+    from wpull.protocol.http.robots import RobotsTxtChecker
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/wpull/protocol/http/robots.py", line 14, in <module>
+    from wpull.protocol.http.web import WebClient
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/wpull/protocol/http/web.py", line 13, in <module>
+    from wpull.protocol.http.client import Client
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/wpull/protocol/http/client.py", line 14, in <module>
+    from wpull.protocol.abstract.client import BaseClient, BaseSession, DurationTimeout
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/wpull/protocol/abstract/client.py", line 12, in <module>
+    from wpull.network.pool import ConnectionPool
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/wpull/network/pool.py", line 10, in <module>
+    from wpull.network.connection import Connection, SSLConnection
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/wpull/network/connection.py", line 13, in <module>
+    from tornado.netutil import SSLCertificateError
+ImportError: cannot import name 'SSLCertificateError'
